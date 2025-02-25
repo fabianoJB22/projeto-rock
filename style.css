@@ -1,0 +1,46 @@
+body {
+    font-family: sans-serif;
+    transition: background-color 0.3s ease, color 0.3s ease;
+}
+
+header {
+    background-color: #333;
+    color: #fff;
+    padding: 10px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+#acessibilidade button {
+    background-color: #555;
+    color: #fff;
+    border: none;
+    padding: 5px 10px;
+    margin-left: 5px;
+    cursor: pointer;
+}
+
+main section {
+    padding: 20px;
+    margin-bottom: 20px;
+    opacity: 0;
+    transform: translateY(20px);
+    transition: opacity 0.5s ease, transform 0.5s ease;
+}
+
+main section.aparecer {
+    opacity: 1;
+    transform: translateY(0);
+}
+
+img {
+    max-width: 100%;
+    height: auto;
+}
+
+/* Estilo de alto contraste */
+body.alto-contraste {
+    background-color: #000;
+    color: #ff0;
+}
