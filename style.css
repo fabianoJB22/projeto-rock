@@ -44,3 +44,43 @@ body.alto-contraste {
     background-color: #000;
     color: #ff0;
 }
+
+body {
+    font-family: sans-serif;
+    color: #333;
+    background-color: #f4f4f4;
+}
+
+a {
+    color: #007bff;
+}
+
+a:focus {
+    outline: 2px solid #007bff;
+}
+
+/* Ajuste de contraste para textos e fundo */
+body {
+    color: #222;
+    background-color: #eee;
+}
+
+/* Estilo para links visitados */
+a:visited {
+    color: #551a8b; /* Cor roxa */
+}
+
+/* Estilo para links ativos (enquanto clicados) */
+a:active {
+    color: #ff0000; /* Cor vermelha */
+}
+
+/* Estilo para links ao passar o mouse */
+a:hover {
+    text-decoration: underline; /* Sublinhar o link */
+}
+
+/* Estilo para elementos com foco (teclado) */
+a:focus, button:focus, input:focus, textarea:focus, select:focus {
+    outline: 2px solid #00f; /* Contorno azul */
+}
